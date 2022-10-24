@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#B5C7D6"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/txtLoteria1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="La Lotería Mexicana"
+        android:textStyle="bold|italic"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+
+    <ImageView
+        android:id="@+id/imgCartas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/carta1" />
+    <TextView
+        android:id="@+id/txtLoteria2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Contador cartas:"
+        android:textStyle="bold|italic"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+    <Button
+        android:id="@+id/btnIniciar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:enabled="false"
+        android:text="Iniciar" />
+
+    <Button
+        android:id="@+id/btnSuspender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Suspender"
+        android:enabled="false"/>
+
+    <Button
+        android:id="@+id/btnVerificar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Verificar"
+        android:enabled="false"/>
+</LinearLayout>
